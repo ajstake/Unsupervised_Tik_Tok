@@ -5,8 +5,8 @@ Alex Stake
 ## Abstract
 
 The goal of this project was to examine reviews of the video streaming app TikTok to analyze sentiment and discover what people discuss in the reviews. 
-The data came from a Kaggle dataset that covers 3.5 million reviews from 2015 through 2021. I performed NLP through spacy to tokenize the data and then I explored multiple topic models including LSA, NMF, LDA, and CoRex to discover what topics were being discussed and whether the sentiment was primarily positive or negative. 
-This goal was best achieved through a CoRex topic model, discovering 4 major topics centered on True Reviews, Requests, Positive Sentiment, and Content that is enjoyed by users.
+The data came from a Kaggle dataset that covers 3.5 million reviews from 2015 through 2021. I performed NLP through spaCy to tokenize the data and then I explored multiple topic models including LSA, NMF, LDA, and CorEx to discover what topics were being discussed and whether the sentiment was primarily positive or negative. 
+This goal was best achieved through a CorEx topic model, discovering 4 major topics centered on True Reviews, Requests, Positive Sentiment, and Content that is enjoyed by users.
 
 ## Design
 
@@ -25,7 +25,7 @@ In addition to standard tokenization of the data, I built a vectorizer that used
 
 *Models*
 
-After data was tokenized, I built several models, starting with LSA and NMF and eventually performing topic modeling with LDA and CoRex. After building all models, I settled on using CoRex with bi-grams for the final model as it had the most clear topics. 
+After data was tokenized, I built several models, starting with LSA and NMF and eventually performing topic modeling with LDA and CorEx. After building all models, I settled on using CorEx with bi-grams for the final model as it had the most clear topics. 
 I built the model around 4 topics as it explained the most data with the least overlap. These topics were True Reviews, Requests, Positive Sentiment, and Content. Even so, there was a high amount of overlap in topic 1 and topics 3 and 4 in their highest words.
 
 ## Tools
