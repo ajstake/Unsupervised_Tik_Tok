@@ -30,7 +30,7 @@ I built the model around 4 topics as it explained the most data with the least o
 
 ## Tools
 - Pandas and Numpy for data manipulation and ingestion
-- Spacy and CoRex for Natural Language Processing
+- spaCy and CorEx for Natural Language Processing
 - Scikit-Learn and CoRex for topic modeling
 - Matplotlib and Seaborn for plotting and visualization
 
